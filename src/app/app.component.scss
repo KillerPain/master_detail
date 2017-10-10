@@ -1,0 +1,13 @@
+:host {
+    display: flex;
+    height: 100%;
+    .masters {
+        display: flex;
+        flex: 1 0 auto;
+        flex-direction: column;
+        md-master {
+            display: flex;
+            flex: 1 0 auto;
+        }
+    }
+}
